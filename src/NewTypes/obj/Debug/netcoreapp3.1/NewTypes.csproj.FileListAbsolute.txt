@@ -1,0 +1,11 @@
+C:\Users\Staffan\Desktop\Source\Repetition\Newt4u\NEWT4U\src\NewTypes\bin\Debug\netcoreapp3.1\NewTypes.exe
+C:\Users\Staffan\Desktop\Source\Repetition\Newt4u\NEWT4U\src\NewTypes\bin\Debug\netcoreapp3.1\NewTypes.deps.json
+C:\Users\Staffan\Desktop\Source\Repetition\Newt4u\NEWT4U\src\NewTypes\bin\Debug\netcoreapp3.1\NewTypes.runtimeconfig.json
+C:\Users\Staffan\Desktop\Source\Repetition\Newt4u\NEWT4U\src\NewTypes\bin\Debug\netcoreapp3.1\NewTypes.runtimeconfig.dev.json
+C:\Users\Staffan\Desktop\Source\Repetition\Newt4u\NEWT4U\src\NewTypes\bin\Debug\netcoreapp3.1\NewTypes.dll
+C:\Users\Staffan\Desktop\Source\Repetition\Newt4u\NEWT4U\src\NewTypes\bin\Debug\netcoreapp3.1\NewTypes.pdb
+C:\Users\Staffan\Desktop\Source\Repetition\Newt4u\NEWT4U\src\NewTypes\obj\Debug\netcoreapp3.1\NewTypes.csprojAssemblyReference.cache
+C:\Users\Staffan\Desktop\Source\Repetition\Newt4u\NEWT4U\src\NewTypes\obj\Debug\netcoreapp3.1\NewTypes.AssemblyInfoInputs.cache
+C:\Users\Staffan\Desktop\Source\Repetition\Newt4u\NEWT4U\src\NewTypes\obj\Debug\netcoreapp3.1\NewTypes.AssemblyInfo.cs
+C:\Users\Staffan\Desktop\Source\Repetition\Newt4u\NEWT4U\src\NewTypes\obj\Debug\netcoreapp3.1\NewTypes.dll
+C:\Users\Staffan\Desktop\Source\Repetition\Newt4u\NEWT4U\src\NewTypes\obj\Debug\netcoreapp3.1\NewTypes.pdb

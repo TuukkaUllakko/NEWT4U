@@ -92,3 +92,8 @@ C:\Users\Tuukka\Documents\NEWT4U\test\NewTypesTest\obj\Debug\netcoreapp3.1\NewTy
 C:\Users\Tuukka\Documents\NEWT4U\test\NewTypesTest\obj\Debug\netcoreapp3.1\NewTypesTest.csproj.CopyComplete
 C:\Users\Tuukka\Documents\NEWT4U\test\NewTypesTest\obj\Debug\netcoreapp3.1\NewTypesTest.dll
 C:\Users\Tuukka\Documents\NEWT4U\test\NewTypesTest\obj\Debug\netcoreapp3.1\NewTypesTest.pdb
+C:\Users\Staffan\Desktop\Source\Repetition\Newt4u\NEWT4U\test\NewTypesTest\obj\Debug\netcoreapp3.1\NewTypesTest.csprojAssemblyReference.cache
+C:\Users\Staffan\Desktop\Source\Repetition\Newt4u\NEWT4U\test\NewTypesTest\obj\Debug\netcoreapp3.1\NewTypesTest.AssemblyInfoInputs.cache
+C:\Users\Staffan\Desktop\Source\Repetition\Newt4u\NEWT4U\test\NewTypesTest\obj\Debug\netcoreapp3.1\NewTypesTest.AssemblyInfo.cs
+C:\Users\Staffan\Desktop\Source\Repetition\Newt4u\NEWT4U\test\NewTypesTest\obj\Debug\netcoreapp3.1\NewTypesTest.dll
+C:\Users\Staffan\Desktop\Source\Repetition\Newt4u\NEWT4U\test\NewTypesTest\obj\Debug\netcoreapp3.1\NewTypesTest.pdb

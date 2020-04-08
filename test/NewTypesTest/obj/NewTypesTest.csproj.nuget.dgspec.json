@@ -1,30 +1,88 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tuukka\\Documents\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj": {}
+    "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tuukka\\Documents\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj": {
+    "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tuukka\\Documents\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj",
-        "projectName": "NewTypesTest",
-        "projectPath": "C:\\Users\\Tuukka\\Documents\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj",
-        "packagesPath": "C:\\Users\\Tuukka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tuukka\\Documents\\NEWT4U\\test\\NewTypesTest\\obj\\",
+        "projectUniqueName": "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj",
+        "projectName": "NewTypes",
+        "projectPath": "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj",
+        "packagesPath": "C:\\Users\\Staffan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tuukka\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Staffan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj",
+        "projectName": "NewTypesTest",
+        "projectPath": "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj",
+        "packagesPath": "C:\\Users\\Staffan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Staffan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj": {
+                "projectPath": "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

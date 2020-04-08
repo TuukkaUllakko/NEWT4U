@@ -1225,6 +1225,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "NewTypes/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/NewTypes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NewTypes.dll": {}
+        }
       }
     }
   },
@@ -4618,39 +4628,51 @@
         "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "NewTypes/1.0.0": {
+      "type": "project",
+      "path": "../../src/NewTypes/NewTypes.csproj",
+      "msbuildProject": "../../src/NewTypes/NewTypes.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.NET.Test.Sdk >= 16.4.0",
       "NUnit3TestAdapter >= 3.15.1",
+      "NewTypes >= 1.0.0",
       "nunit >= 3.12.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tuukka\\.nuget\\packages\\": {}
+    "C:\\Users\\Staffan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tuukka\\Documents\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj",
+      "projectUniqueName": "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj",
       "projectName": "NewTypesTest",
-      "projectPath": "C:\\Users\\Tuukka\\Documents\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj",
-      "packagesPath": "C:\\Users\\Tuukka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tuukka\\Documents\\NEWT4U\\test\\NewTypesTest\\obj\\",
+      "projectPath": "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj",
+      "packagesPath": "C:\\Users\\Staffan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Tuukka\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Staffan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj": {
+              "projectPath": "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
