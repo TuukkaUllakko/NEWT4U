@@ -4644,11 +4644,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Staffan\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Pc\\.nuget\\packages\\": {}
+>>>>>>> 7b89932a51ae264f1dd54fe13d10722af6abdea1
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj",
       "projectName": "NewTypesTest",
       "projectPath": "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj",
@@ -4657,6 +4662,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Staffan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\Pc\\Documents\\Road_To_Sofware\\Team4You\\Team4You-Part-5-SDT\\project_2\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj",
+      "projectName": "NewTypesTest",
+      "projectPath": "C:\\Users\\Pc\\Documents\\Road_To_Sofware\\Team4You\\Team4You-Part-5-SDT\\project_2\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj",
+      "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Pc\\Documents\\Road_To_Sofware\\Team4You\\Team4You-Part-5-SDT\\project_2\\NEWT4U\\test\\NewTypesTest\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 7b89932a51ae264f1dd54fe13d10722af6abdea1
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4669,8 +4684,13 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj": {
               "projectPath": "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj"
+=======
+            "C:\\Users\\Pc\\Documents\\Road_To_Sofware\\Team4You\\Team4You-Part-5-SDT\\project_2\\NEWT4U\\src\\NewTypes\\NewTypes.csproj": {
+              "projectPath": "C:\\Users\\Pc\\Documents\\Road_To_Sofware\\Team4You\\Team4You-Part-5-SDT\\project_2\\NEWT4U\\src\\NewTypes\\NewTypes.csproj"
+>>>>>>> 7b89932a51ae264f1dd54fe13d10722af6abdea1
             }
           }
         }
