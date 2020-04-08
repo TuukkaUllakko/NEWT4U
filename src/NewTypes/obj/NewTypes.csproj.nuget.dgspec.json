@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj": {}
+    "c:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj": {
+    "c:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj",
+        "projectUniqueName": "c:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj",
         "projectName": "NewTypes",
-        "projectPath": "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj",
+        "projectPath": "c:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj",
         "packagesPath": "C:\\Users\\Staffan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\obj\\",
+        "outputPath": "c:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Staffan\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -2,7 +2,7 @@ using System;
 using NUnit.Framework;
 using Animals;
 
-public class PetTests
+public class AnimalsTests
 {
   [Test]
   public void DogTalkToOwnerReturnsWoof()

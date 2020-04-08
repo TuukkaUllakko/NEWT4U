@@ -4649,11 +4649,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj",
+      "projectUniqueName": "c:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj",
       "projectName": "NewTypesTest",
-      "projectPath": "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj",
+      "projectPath": "c:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj",
       "packagesPath": "C:\\Users\\Staffan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\obj\\",
+      "outputPath": "c:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Staffan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4669,8 +4669,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj": {
-              "projectPath": "C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj"
+            "c:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj": {
+              "projectPath": "c:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj"
             }
           }
         }
@@ -4721,7 +4721,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\obj\\NewTypesTest.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problem reading the cache file c:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\obj\\NewTypesTest.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
 }
