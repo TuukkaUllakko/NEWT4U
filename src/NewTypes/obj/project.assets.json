@@ -8,24 +8,26 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Tuukka\\.nuget\\packages\\": {}
+    "C:\\Users\\Staffan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tuukka\\Documents\\NEWT4U\\src\\NewTypes\\NewTypes.csproj",
+      "projectUniqueName": "c:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj",
       "projectName": "NewTypes",
-      "projectPath": "C:\\Users\\Tuukka\\Documents\\NEWT4U\\src\\NewTypes\\NewTypes.csproj",
-      "packagesPath": "C:\\Users\\Tuukka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tuukka\\Documents\\NEWT4U\\src\\NewTypes\\obj\\",
+      "projectPath": "c:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj",
+      "packagesPath": "C:\\Users\\Staffan\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Tuukka\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Staffan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,5 +61,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file c:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\obj\\NewTypes.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

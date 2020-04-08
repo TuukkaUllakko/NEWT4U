@@ -4644,31 +4644,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tuukka\\.nuget\\packages\\": {}
+    "C:\\Users\\Staffan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tuukka\\Documents\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj",
+      "projectUniqueName": "c:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj",
       "projectName": "NewTypesTest",
-      "projectPath": "C:\\Users\\Tuukka\\Documents\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj",
-      "packagesPath": "C:\\Users\\Tuukka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tuukka\\Documents\\NEWT4U\\test\\NewTypesTest\\obj\\",
+      "projectPath": "c:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\NewTypesTest.csproj",
+      "packagesPath": "C:\\Users\\Staffan\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Tuukka\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Staffan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Tuukka\\Documents\\NEWT4U\\src\\NewTypes\\NewTypes.csproj": {
-              "projectPath": "C:\\Users\\Tuukka\\Documents\\NEWT4U\\src\\NewTypes\\NewTypes.csproj"
+            "c:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj": {
+              "projectPath": "c:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\src\\NewTypes\\NewTypes.csproj"
             }
           }
         }
@@ -4713,5 +4715,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file c:\\Users\\Staffan\\Desktop\\Source\\Repetition\\Newt4u\\NEWT4U\\test\\NewTypesTest\\obj\\NewTypesTest.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
