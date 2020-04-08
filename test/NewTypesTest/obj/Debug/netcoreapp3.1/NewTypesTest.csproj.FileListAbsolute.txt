@@ -92,3 +92,6 @@ C:\Users\Tuukka\Documents\NEWT4U\test\NewTypesTest\obj\Debug\netcoreapp3.1\NewTy
 C:\Users\Tuukka\Documents\NEWT4U\test\NewTypesTest\obj\Debug\netcoreapp3.1\NewTypesTest.csproj.CopyComplete
 C:\Users\Tuukka\Documents\NEWT4U\test\NewTypesTest\obj\Debug\netcoreapp3.1\NewTypesTest.dll
 C:\Users\Tuukka\Documents\NEWT4U\test\NewTypesTest\obj\Debug\netcoreapp3.1\NewTypesTest.pdb
+C:\Users\Tuukka\Documents\NEWT4U\test\NewTypesTest\bin\Debug\netcoreapp3.1\NewTypes.exe
+C:\Users\Tuukka\Documents\NEWT4U\test\NewTypesTest\bin\Debug\netcoreapp3.1\NewTypes.dll
+C:\Users\Tuukka\Documents\NEWT4U\test\NewTypesTest\bin\Debug\netcoreapp3.1\NewTypes.pdb
