@@ -20,4 +20,4 @@ jobs:
     - name: Build
       run: dotnet build src/NewTypes/NewTypes.csproj --configuration Release --no-restore
     - name: Test
-      run: dotnet test test/NewTypesTest/NewTypesTest.csproj --no-restore --verbosity normal
+      run: dotnet test test/NewTypesTest/NewTypesTest.csproj --no-restore --verbosity detailed
