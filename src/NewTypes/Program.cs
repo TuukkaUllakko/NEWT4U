@@ -1,12 +1,14 @@
-﻿using System;
+﻿  using System;
+using Animals;
 
-namespace NewTypes
+namespace ConsoleApplication
 {
-    class Program
+  public class Program
+  {
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+      Dog doggie = new Dog();
+      Console.WriteLine(doggie.TalkToOwner());
     }
+  }
 }
