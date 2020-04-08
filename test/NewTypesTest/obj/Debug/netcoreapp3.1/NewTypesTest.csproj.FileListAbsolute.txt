@@ -92,6 +92,7 @@ C:\Users\Tuukka\Documents\NEWT4U\test\NewTypesTest\obj\Debug\netcoreapp3.1\NewTy
 C:\Users\Tuukka\Documents\NEWT4U\test\NewTypesTest\obj\Debug\netcoreapp3.1\NewTypesTest.csproj.CopyComplete
 C:\Users\Tuukka\Documents\NEWT4U\test\NewTypesTest\obj\Debug\netcoreapp3.1\NewTypesTest.dll
 C:\Users\Tuukka\Documents\NEWT4U\test\NewTypesTest\obj\Debug\netcoreapp3.1\NewTypesTest.pdb
+<<<<<<< HEAD
 C:\Users\Pc\Documents\Road_To_Sofware\Team4You\Team4You-Part-5-SDT\project_2\NEWT4U\test\NewTypesTest\obj\Debug\netcoreapp3.1\NewTypesTest.csprojAssemblyReference.cache
 C:\Users\Pc\Documents\Road_To_Sofware\Team4You\Team4You-Part-5-SDT\project_2\NEWT4U\test\NewTypesTest\obj\Debug\netcoreapp3.1\NewTypesTest.AssemblyInfoInputs.cache
 C:\Users\Pc\Documents\Road_To_Sofware\Team4You\Team4You-Part-5-SDT\project_2\NEWT4U\test\NewTypesTest\obj\Debug\netcoreapp3.1\NewTypesTest.AssemblyInfo.cs
@@ -189,3 +190,8 @@ C:\Users\Pc\Documents\Road_To_Sofware\Team4You\Team4You-Part-5-SDT\project_2\NEW
 C:\Users\Pc\Documents\Road_To_Sofware\Team4You\Team4You-Part-5-SDT\project_2\NEWT4U\test\NewTypesTest\bin\Debug\netcoreapp3.1\NewTypes.dll
 C:\Users\Pc\Documents\Road_To_Sofware\Team4You\Team4You-Part-5-SDT\project_2\NEWT4U\test\NewTypesTest\bin\Debug\netcoreapp3.1\NewTypes.pdb
 C:\Users\Pc\Documents\Road_To_Sofware\Team4You\Team4You-Part-5-SDT\project_2\NEWT4U\test\NewTypesTest\obj\Debug\netcoreapp3.1\NewTypesTest.csproj.CopyComplete
+=======
+C:\Users\Tuukka\Documents\NEWT4U\test\NewTypesTest\bin\Debug\netcoreapp3.1\NewTypes.exe
+C:\Users\Tuukka\Documents\NEWT4U\test\NewTypesTest\bin\Debug\netcoreapp3.1\NewTypes.dll
+C:\Users\Tuukka\Documents\NEWT4U\test\NewTypesTest\bin\Debug\netcoreapp3.1\NewTypes.pdb
+>>>>>>> b38900132df8aff4a5e89215f61a7476ca5387ea

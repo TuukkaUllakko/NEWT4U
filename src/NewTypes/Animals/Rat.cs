@@ -6,7 +6,7 @@ namespace Animals
   {
     public string TalkToOwner()
     {
-      return "Squeek!";
+      return "Squee!";
     }
   }
 }
