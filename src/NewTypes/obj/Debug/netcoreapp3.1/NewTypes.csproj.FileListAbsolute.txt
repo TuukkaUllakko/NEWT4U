@@ -9,3 +9,14 @@ C:\Users\Tuukka\Documents\NEWT4U\src\NewTypes\obj\Debug\netcoreapp3.1\NewTypes.A
 C:\Users\Tuukka\Documents\NEWT4U\src\NewTypes\obj\Debug\netcoreapp3.1\NewTypes.AssemblyInfo.cs
 C:\Users\Tuukka\Documents\NEWT4U\src\NewTypes\obj\Debug\netcoreapp3.1\NewTypes.dll
 C:\Users\Tuukka\Documents\NEWT4U\src\NewTypes\obj\Debug\netcoreapp3.1\NewTypes.pdb
+C:\Users\Pc\Documents\Road_To_Sofware\Team4You\Team4You-Part-5-SDT\project_2\NEWT4U\src\NewTypes\bin\Debug\netcoreapp3.1\NewTypes.exe
+C:\Users\Pc\Documents\Road_To_Sofware\Team4You\Team4You-Part-5-SDT\project_2\NEWT4U\src\NewTypes\bin\Debug\netcoreapp3.1\NewTypes.deps.json
+C:\Users\Pc\Documents\Road_To_Sofware\Team4You\Team4You-Part-5-SDT\project_2\NEWT4U\src\NewTypes\bin\Debug\netcoreapp3.1\NewTypes.runtimeconfig.json
+C:\Users\Pc\Documents\Road_To_Sofware\Team4You\Team4You-Part-5-SDT\project_2\NEWT4U\src\NewTypes\bin\Debug\netcoreapp3.1\NewTypes.runtimeconfig.dev.json
+C:\Users\Pc\Documents\Road_To_Sofware\Team4You\Team4You-Part-5-SDT\project_2\NEWT4U\src\NewTypes\bin\Debug\netcoreapp3.1\NewTypes.dll
+C:\Users\Pc\Documents\Road_To_Sofware\Team4You\Team4You-Part-5-SDT\project_2\NEWT4U\src\NewTypes\bin\Debug\netcoreapp3.1\NewTypes.pdb
+C:\Users\Pc\Documents\Road_To_Sofware\Team4You\Team4You-Part-5-SDT\project_2\NEWT4U\src\NewTypes\obj\Debug\netcoreapp3.1\NewTypes.csprojAssemblyReference.cache
+C:\Users\Pc\Documents\Road_To_Sofware\Team4You\Team4You-Part-5-SDT\project_2\NEWT4U\src\NewTypes\obj\Debug\netcoreapp3.1\NewTypes.AssemblyInfoInputs.cache
+C:\Users\Pc\Documents\Road_To_Sofware\Team4You\Team4You-Part-5-SDT\project_2\NEWT4U\src\NewTypes\obj\Debug\netcoreapp3.1\NewTypes.AssemblyInfo.cs
+C:\Users\Pc\Documents\Road_To_Sofware\Team4You\Team4You-Part-5-SDT\project_2\NEWT4U\src\NewTypes\obj\Debug\netcoreapp3.1\NewTypes.dll
+C:\Users\Pc\Documents\Road_To_Sofware\Team4You\Team4You-Part-5-SDT\project_2\NEWT4U\src\NewTypes\obj\Debug\netcoreapp3.1\NewTypes.pdb
