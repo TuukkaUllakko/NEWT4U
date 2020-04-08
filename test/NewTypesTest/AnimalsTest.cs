@@ -43,6 +43,6 @@ public class PetTests
     string expected = "Oink!";
     string actual = new Pig().TalkToOwner();
 
-    Assert.AreEqual(expected, actual, "Pig should say Oink!");
+    Assert.AreEqual(expected, actual, "Pig should say Oink Oink!");
   }
 }
