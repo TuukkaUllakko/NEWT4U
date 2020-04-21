@@ -146,11 +146,12 @@ public class AnimalsTests
     [Test]
     public void RatSaysComeHereReturnString()
     {
-        string actual = new Rat("Hannah").ComeHere();
+        string actual = new Rat("Carol").ComeHere();
         string expected = actual.ToString();
+        //Hello
 
         Assert.AreEqual(expected, actual, "ComeHere() doesn't work");
     }
     //Below are the Hunt() tests
-    
+
 }
