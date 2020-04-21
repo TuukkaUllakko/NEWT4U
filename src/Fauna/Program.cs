@@ -7,8 +7,8 @@ namespace ConsoleApplication
   {
     public static void Main(string[] args)
     {
-      Dog doggie = new Dog();
-      Console.WriteLine(doggie.TalkToOwner());
+      Wolf wolfie = new Wolf();
+      Console.WriteLine(wolfie.Hunt());
     }
   }
 }
