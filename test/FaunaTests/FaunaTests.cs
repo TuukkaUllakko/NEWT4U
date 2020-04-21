@@ -89,10 +89,10 @@ public class AnimalsTests
     [Test]
     public void BearMakeSound()
     {
-        string expected = "Growl!";
+        string expected = "Roar!";
         string actual = new Bear().MakeSound();
 
-        Assert.AreEqual(expected, actual, "Bear should say Growl!");
+        Assert.AreEqual(expected, actual, "Bear should say Roar!");
     }
     [Test]
     public void TigerMakeSound()
