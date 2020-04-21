@@ -16,8 +16,8 @@ jobs:
       with:
         dotnet-version: 3.1.101
     - name: Install dependencies
-      run: dotnet restore src/NewTypes/NewTypes.csproj
+      run: dotnet restore src/Fauna/Fauna.csproj
     - name: Build
-      run: dotnet build src/NewTypes/NewTypes.csproj --configuration Release --no-restore
+      run: dotnet build src/Fauna/Fauna.csproj --configuration Release --no-restore
     - name: Test
-      run: dotnet test test/NewTypesTest/NewTypesTest.csproj
+      run: dotnet test test/FaunaTests/FaunaTests.csproj
