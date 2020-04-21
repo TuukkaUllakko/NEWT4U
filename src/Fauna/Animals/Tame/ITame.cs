@@ -2,7 +2,7 @@ namespace Animals
 {
     public interface ITame
     {
-        string name { get; set; }
+        string Name { get; set; }
         string ComeHere();
 
     }

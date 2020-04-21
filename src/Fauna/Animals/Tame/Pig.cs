@@ -4,6 +4,11 @@ namespace Animals
 {
     public class Pig : Animal, ITame
     {
+        public string Name { get; set; }
+        public Pig(string Name)
+        {
+            this.Name = Name;
+        }
         public string TalkToOwner()
         {
             return "Oink!";
@@ -14,7 +19,7 @@ namespace Animals
         }
         public string ComeHere()
         {
-            return " came to the owner.";
+            return this.Name + " came to the owner.";
         }
     }
 }
