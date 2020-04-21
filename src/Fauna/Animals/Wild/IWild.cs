@@ -1,6 +1,6 @@
 namespace Animals
 {
-    public interface IWild
+    public interface IWild : Animal
     {
         string Hunt();
     }
