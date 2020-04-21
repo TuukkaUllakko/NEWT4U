@@ -1,19 +1,19 @@
 namespace Animals
 {
-  public class Bird : ITame
+  public class Bird : Animal, ITame
   {
     public string TalkToOwner()
     {
       return "Tweet!";
     } 
     
-    public string MakeSound()
+    public override string MakeSound()
   {
      return "Tweet!";
   }
   public string ComeHere()
   {
-      return "Bird came to the owner";
+    return " came to the owner.";
   }
 
   }
