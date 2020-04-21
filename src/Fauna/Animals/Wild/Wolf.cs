@@ -1,6 +1,6 @@
 namespace Animals
 {
-    public class Wolf : IWild
+    public class Wolf : Animal, IWild
     {
         public string MakeSound()
         {
