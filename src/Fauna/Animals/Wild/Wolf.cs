@@ -2,9 +2,9 @@ namespace Animals
 {
     public class Wolf : Animal, IWild
     {
-        public string MakeSound()
+        public override string MakeSound()
         {
-            return "Hooooowwwwwwwl";
+            return "Howl!";
         }
         public string Hunt()
         {
