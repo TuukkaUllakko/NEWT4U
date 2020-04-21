@@ -20,7 +20,7 @@ namespace Animals
 
         public override string MakeSound()
         {
-            return TalkToOwner();
+            return this.Name + " came to the owner.";
         }
     }
 }
