@@ -8,7 +8,7 @@ namespace Animals
         }
         public string Hunt()
         {
-            return " hunts";
+            return typeof(Tiger).Name + " hunts";
         }
     }
 }
