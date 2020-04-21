@@ -112,7 +112,7 @@ public class AnimalsTests
     }
     //Below tests for ComeHere()
     [Test]
-    public void BirdSaysComeHereReturnString()
+    public void BirdComeHereReturnString()
     {
         string actual = new Bird("Hannah").ComeHere();
         string expected = actual.ToString();
@@ -120,7 +120,7 @@ public class AnimalsTests
         Assert.AreEqual(expected, actual, "ComeHere() doesn't work");
     }
     [Test]
-    public void CatSaysComeHereReturnString()
+    public void CatComeHereReturnString()
     {
         string actual = new Cat("Hannah").ComeHere();
         string expected = actual.ToString();
@@ -128,7 +128,7 @@ public class AnimalsTests
         Assert.AreEqual(expected, actual, "ComeHere() doesn't work");
     }
     [Test]
-    public void DogSaysComeHereReturnString()
+    public void DogComeHereReturnString()
     {
         string actual = new Dog("Hannah").ComeHere();
         string expected = actual.ToString();
@@ -136,7 +136,7 @@ public class AnimalsTests
         Assert.AreEqual(expected, actual, "ComeHere() doesn't work");
     }
     [Test]
-    public void PigSaysComeHereReturnString()
+    public void PigComeHereReturnString()
     {
         string actual = new Pig("Hannah").ComeHere();
         string expected = actual.ToString();
@@ -144,7 +144,7 @@ public class AnimalsTests
         Assert.AreEqual(expected, actual, "ComeHere() doesn't work");
     }
     [Test]
-    public void RatSaysComeHereReturnString()
+    public void RatComeHereReturnString()
     {
         string actual = new Rat("Hannah").ComeHere();
         string expected = actual.ToString();
@@ -152,5 +152,29 @@ public class AnimalsTests
         Assert.AreEqual(expected, actual, "ComeHere() doesn't work");
     }
     //Below are the Hunt() tests
+    [Test]
+    public void WolfHuntReturnString()
+    {
+        string actual = new Wolf().Hunt();
+        string expected = "Wolf hunts";
+
+        Assert.AreEqual(expected, actual, "Hunt() doesn't work");
+    }
+    [Test]
+    public void BearHuntReturnString()
+    {
+        string actual = new Bear().Hunt();
+        string expected = "Bear hunts";
+
+        Assert.AreEqual(expected, actual, "Hunt() doesn't work");
+    }
+    [Test]
+    public void TigerHuntReturnString()
+    {
+        string actual = new Tiger().Hunt();
+        string expected = "Tiger hunts";
+
+        Assert.AreEqual(expected, actual, "Hunt() doesn't work");
+    }
     
 }
