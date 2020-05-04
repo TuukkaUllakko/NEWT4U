@@ -237,11 +237,61 @@ public class AnimalsTests
         Assert.AreNotEqual(expected, actual, "GiveName() should change name.");
     }
     //Below are the tests for the Eat() method
-    /*[Test]
+    [Test]
+    
+    public void EatIncreasesWeightBird()
     {
-        public void EatIncreasesWeight()
-        {
+        Bird testObj = new Bird();
+        string actual = testObj.weight;
 
-        }
-    }*/
+        testObj.Eat();
+
+        string expected = testObj.weight;
+
+        Assert.AreNotEqual(expected, actual, "Eat() should increase weight");
+    }
+    public void EatIncreasesWeightCat()
+    {
+        Cat testObj = new Cat();
+        string actual = testObj.weight;
+
+        testObj.Eat();
+
+        string expected = testObj.weight;
+
+        Assert.AreNotEqual(expected, actual, "Eat() should increase weight");
+    }
+    public void EatIncreasesWeightDog()
+    {
+        Dog testObj = new Dog();
+        string actual = testObj.weight;
+
+        testObj.Eat();
+
+        string expected = testObj.weight;
+
+        Assert.AreNotEqual(expected, actual, "Eat() should increase weight");
+    }
+    public void EatIncreasesWeightPig()
+    {
+        Pig testObj = new Pig();
+        string actual = testObj.weight;
+
+        testObj.Eat();
+
+        string expected = testObj.weight;
+
+        Assert.AreNotEqual(expected, actual, "Eat() should increase weight");
+    }
+    public void EatIncreasesWeightRat()
+    {
+        Rat testObj = new Rat();
+        string actual = testObj.weight;
+
+        testObj.Eat();
+
+        string expected = testObj.weight;
+
+        Assert.AreNotEqual(expected, actual, "Eat() should increase weight");
+    }
 }
