@@ -8,7 +8,7 @@ public class AnimalsTests
     public void DogTalkToOwnerReturnsWoof()
     {
         string expected = "Woof!";
-        string actual = new Dog("Bobby").TalkToOwner();
+        string actual = new Dog().TalkToOwner();
 
         Assert.AreEqual(expected, actual, "Dog should say Woof!");
     }
@@ -17,7 +17,7 @@ public class AnimalsTests
     public void RatTalkToOwnerReturnsSqueek()
     {
         string expected = "Squeek!";
-        string actual = new Rat("Robert").TalkToOwner();
+        string actual = new Rat().TalkToOwner();
 
         Assert.AreEqual(expected, actual, "Rat should say Squeek!");
     }
@@ -25,7 +25,7 @@ public class AnimalsTests
     public void CatTalkToOwnerReturnsMeow()
     {
         string expected = "Meow!";
-        string actual = new Cat("Lucy").TalkToOwner();
+        string actual = new Cat().TalkToOwner();
 
         Assert.AreEqual(expected, actual, "Cat should say Meow!");
     }
@@ -33,7 +33,7 @@ public class AnimalsTests
     public void BirdTalkToOwnerReturnsTweet()
     {
         string expected = "Tweet!";
-        string actual = new Bird("Hannah").TalkToOwner();
+        string actual = new Bird().TalkToOwner();
 
         Assert.AreEqual(expected, actual, "Bird should say Tweet!");
     }
@@ -41,7 +41,7 @@ public class AnimalsTests
     public void PigTalkToOwnerReturnsOink()
     {
         string expected = "Oink!";
-        string actual = new Pig("Carol").TalkToOwner();
+        string actual = new Pig().TalkToOwner();
 
         Assert.AreEqual(expected, actual, "Pig should say Oink");
     }
@@ -50,7 +50,7 @@ public class AnimalsTests
     public void BirdMakeSound()
     {
         string expected = "Tweet!";
-        string actual = new Bird("Hannah").MakeSound();
+        string actual = new Bird().MakeSound();
 
         Assert.AreEqual(expected, actual, "Bird should say Tweet!");
     }
@@ -58,7 +58,7 @@ public class AnimalsTests
     public void CatMakeSound()
     {
         string expected = "Meow!";
-        string actual = new Cat("Hannah").MakeSound();
+        string actual = new Cat().MakeSound();
 
         Assert.AreEqual(expected, actual, "Cat should say Meow!");
     }
@@ -66,7 +66,7 @@ public class AnimalsTests
     public void DogMakeSound()
     {
         string expected = "Woof!";
-        string actual = new Dog("Hannah").MakeSound();
+        string actual = new Dog().MakeSound();
 
         Assert.AreEqual(expected, actual, "Dog should say Woof!");
     }
@@ -74,7 +74,7 @@ public class AnimalsTests
     public void PigMakeSound()
     {
         string expected = "Oink!";
-        string actual = new Pig("Hannah").MakeSound();
+        string actual = new Pig().MakeSound();
 
         Assert.AreEqual(expected, actual, "Pig should say Oink!");
     }
@@ -82,7 +82,7 @@ public class AnimalsTests
     public void RatMakeSound()
     {
         string expected = "Squeek!";
-        string actual = new Rat("Hannah").MakeSound();
+        string actual = new Rat().MakeSound();
 
         Assert.AreEqual(expected, actual, "Rat should say Squeek!");
     }
@@ -114,7 +114,7 @@ public class AnimalsTests
     [Test]
     public void BirdComeHereReturnString()
     {
-        string actual = new Bird("Hannah").ComeHere();
+        string actual = new Bird().ComeHere();
         string expected = actual.ToString();
 
         Assert.AreEqual(expected, actual, "ComeHere() doesn't work");
@@ -122,7 +122,7 @@ public class AnimalsTests
     [Test]
     public void CatComeHereReturnString()
     {
-        string actual = new Cat("Hannah").ComeHere();
+        string actual = new Cat().ComeHere();
         string expected = actual.ToString();
 
         Assert.AreEqual(expected, actual, "ComeHere() doesn't work");
@@ -130,7 +130,7 @@ public class AnimalsTests
     [Test]
     public void DogComeHereReturnString()
     {
-        string actual = new Dog("Hannah").ComeHere();
+        string actual = new Dog().ComeHere();
         string expected = actual.ToString();
 
         Assert.AreEqual(expected, actual, "ComeHere() doesn't work");
@@ -138,7 +138,7 @@ public class AnimalsTests
     [Test]
     public void PigComeHereReturnString()
     {
-        string actual = new Pig("Hannah").ComeHere();
+        string actual = new Pig().ComeHere();
         string expected = actual.ToString();
 
         Assert.AreEqual(expected, actual, "ComeHere() doesn't work");
@@ -146,7 +146,7 @@ public class AnimalsTests
     [Test]
     public void RatComeHereReturnString()
     {
-        string actual = new Rat("Hannah").ComeHere();
+        string actual = new Rat().ComeHere();
         string expected = actual.ToString();
         Assert.AreEqual(expected, actual, "ComeHere() doesn't work");
     }
@@ -174,5 +174,66 @@ public class AnimalsTests
         string expected = "Tiger hunts";
 
         Assert.AreEqual(expected, actual, "Hunt() doesn't work");
+    }
+    //Below are the GiveName() tests
+    [Test]
+    public void GiveNameChangesNameBird()
+    {
+        Bird bird = new Bird();
+        string actual = bird.Name;
+        
+        bird.GiveName("Bob");
+
+        string expected = bird.Name;
+
+        Assert.AreNotEqual(expected, actual, "GiveName() should change name.");
+    }
+    [Test]
+    public void GiveNameChangesNameCat()
+    {
+        Cat bird = new Cat();
+        string actual = bird.Name;
+        
+        bird.GiveName("Bob");
+
+        string expected = bird.Name;
+
+        Assert.AreNotEqual(expected, actual, "GiveName() should change name.");
+    }
+    [Test]
+    public void GiveNameChangesNameDog()
+    {
+        Dog bird = new Dog();
+        string actual = bird.Name;
+        
+        bird.GiveName("Bob");
+
+        string expected = bird.Name;
+
+        Assert.AreNotEqual(expected, actual, "GiveName() should change name.");
+    }
+    [Test]
+    public void GiveNameChangesNamePig()
+    {
+        Pig bird = new Pig();
+        string actual = bird.Name;
+        
+        bird.GiveName("Bob");
+
+        string expected = bird.Name;
+
+        Assert.AreNotEqual(expected, actual, "GiveName() should change name.");
+    }
+    [Test]
+    public void GiveNameChangesNameRat()
+    {
+        Rat bird = new Rat();
+        string actual = bird.Name;
+        
+        bird.GiveName("Bob");
+
+        string expected = bird.Name;
+
+        Assert.AreNotEqual(expected, actual, "GiveName() should change name.");
     }
 }
