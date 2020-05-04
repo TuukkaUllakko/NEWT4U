@@ -248,7 +248,7 @@ public class AnimalsTests
 
         int expected = testObj.weight;
 
-        Assert.AreNotEqual(expected, actual, "Eat() should increase weight");
+        Assert.AreEqual(expected, actual + 1, "Eat() should increase weight by 1");
     }
     public void EatIncreasesWeightCat()
     {
@@ -259,7 +259,7 @@ public class AnimalsTests
 
         int expected = testObj.weight;
 
-        Assert.AreNotEqual(expected, actual, "Eat() should increase weight");
+        Assert.AreEqual(expected, actual + 1, "Eat() should increase weight by 1");
     }
     public void EatIncreasesWeightDog()
     {
@@ -270,7 +270,7 @@ public class AnimalsTests
 
         int expected = testObj.weight;
 
-        Assert.AreNotEqual(expected, actual, "Eat() should increase weight");
+        Assert.AreEqual(expected, actual + 1, "Eat() should increase weight by 1");
     }
     public void EatIncreasesWeightPig()
     {
@@ -281,7 +281,7 @@ public class AnimalsTests
 
         int expected = testObj.weight;
 
-        Assert.AreNotEqual(expected, actual, "Eat() should increase weight");
+        Assert.AreEqual(expected, actual + 1, "Eat() should increase weight by 1");
     }
     public void EatIncreasesWeightRat()
     {
@@ -292,6 +292,6 @@ public class AnimalsTests
 
         int expected = testObj.weight;
 
-        Assert.AreNotEqual(expected, actual, "Eat() should increase weight");
+        Assert.AreEqual(expected, actual + 1, "Eat() should increase weight by 1");
     }
 }
