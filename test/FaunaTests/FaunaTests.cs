@@ -242,55 +242,55 @@ public class AnimalsTests
     public void EatIncreasesWeightBird()
     {
         Bird testObj = new Bird();
-        string actual = testObj.weight;
+        int actual = testObj.weight;
 
         testObj.Eat();
 
-        string expected = testObj.weight;
+        int expected = testObj.weight;
 
         Assert.AreNotEqual(expected, actual, "Eat() should increase weight");
     }
     public void EatIncreasesWeightCat()
     {
         Cat testObj = new Cat();
-        string actual = testObj.weight;
+        int actual = testObj.weight;
 
         testObj.Eat();
 
-        string expected = testObj.weight;
+        int expected = testObj.weight;
 
         Assert.AreNotEqual(expected, actual, "Eat() should increase weight");
     }
     public void EatIncreasesWeightDog()
     {
         Dog testObj = new Dog();
-        string actual = testObj.weight;
+        int actual = testObj.weight;
 
         testObj.Eat();
 
-        string expected = testObj.weight;
+        int expected = testObj.weight;
 
         Assert.AreNotEqual(expected, actual, "Eat() should increase weight");
     }
     public void EatIncreasesWeightPig()
     {
         Pig testObj = new Pig();
-        string actual = testObj.weight;
+        int actual = testObj.weight;
 
         testObj.Eat();
 
-        string expected = testObj.weight;
+        int expected = testObj.weight;
 
         Assert.AreNotEqual(expected, actual, "Eat() should increase weight");
     }
     public void EatIncreasesWeightRat()
     {
         Rat testObj = new Rat();
-        string actual = testObj.weight;
+        int actual = testObj.weight;
 
         testObj.Eat();
 
-        string expected = testObj.weight;
+        int expected = testObj.weight;
 
         Assert.AreNotEqual(expected, actual, "Eat() should increase weight");
     }
