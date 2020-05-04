@@ -154,26 +154,29 @@ public class AnimalsTests
     [Test]
     public void WolfHuntReturnString()
     {
-        string actual = new Wolf().Hunt();
-        string expected = "Wolf hunts";
+        Wolf testObj = new Wolf();
+        string actual = testObj.Hunt();
+        string expected = typeof(Wolf).Name + " hunts &";
 
-        Assert.AreEqual(expected, actual, "Hunt() doesn't work");
+        StringAssert.StartsWith(expected, actual, "Hunt() doesn't work");
     }
     [Test]
     public void BearHuntReturnString()
     {
-        string actual = new Bear().Hunt();
-        string expected = "Bear hunts";
+        Bear testObj = new Bear();
+        string actual = testObj.Hunt();
+        string expected = typeof(Bear).Name + " hunts &";
 
-        Assert.AreEqual(expected, actual, "Hunt() doesn't work");
+        StringAssert.StartsWith(expected, actual, "Hunt() doesn't work");
     }
     [Test]
     public void TigerHuntReturnString()
     {
-        string actual = new Tiger().Hunt();
-        string expected = "Tiger hunts";
+        Tiger testObj = new Tiger();
+        string actual = testObj.Hunt();
+        string expected = typeof(Tiger).Name + " hunts &";
 
-        Assert.AreEqual(expected, actual, "Hunt() doesn't work");
+        StringAssert.StartsWith(expected, actual, "Hunt() doesn't work");
     }
     //Below are the GiveName() tests
     [Test]
@@ -181,7 +184,7 @@ public class AnimalsTests
     {
         Bird bird = new Bird();
         string actual = bird.Name;
-        
+
         bird.GiveName("Bob");
 
         string expected = bird.Name;
@@ -193,7 +196,7 @@ public class AnimalsTests
     {
         Cat bird = new Cat();
         string actual = bird.Name;
-        
+
         bird.GiveName("Bob");
 
         string expected = bird.Name;
@@ -205,7 +208,7 @@ public class AnimalsTests
     {
         Dog bird = new Dog();
         string actual = bird.Name;
-        
+
         bird.GiveName("Bob");
 
         string expected = bird.Name;
@@ -217,7 +220,7 @@ public class AnimalsTests
     {
         Pig bird = new Pig();
         string actual = bird.Name;
-        
+
         bird.GiveName("Bob");
 
         string expected = bird.Name;
@@ -229,7 +232,7 @@ public class AnimalsTests
     {
         Rat bird = new Rat();
         string actual = bird.Name;
-        
+
         bird.GiveName("Bob");
 
         string expected = bird.Name;
@@ -238,7 +241,7 @@ public class AnimalsTests
     }
     //Below are the tests for the Eat() method
     [Test]
-    
+
     public void EatIncreasesWeightBird()
     {
         Bird testObj = new Bird();
