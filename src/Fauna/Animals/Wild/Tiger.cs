@@ -15,5 +15,9 @@ namespace Animals
         {
             return typeof(Tiger).Name + " hunts";
         }
+        public override void Eat()
+        {
+            this.weight += 1;
+        }
     }
 }

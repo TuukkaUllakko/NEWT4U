@@ -27,5 +27,9 @@ namespace Animals
         {
             this.Name = newName;
         }
+        public override void Eat()
+        {
+            this.weight += 1;
+        }
     }
 }

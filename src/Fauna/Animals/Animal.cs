@@ -4,7 +4,6 @@ namespace Animals
     {
         int weight { get; set; }
         public abstract string MakeSound();
-
-
+        public abstract void Eat();
     }
 }

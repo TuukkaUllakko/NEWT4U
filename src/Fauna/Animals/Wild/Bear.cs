@@ -15,5 +15,9 @@ namespace Animals
         {
             return typeof(Bear).Name + " hunts";
         }
+        public override void Eat()
+        {
+            this.weight += 1;
+        }
     }
 }
