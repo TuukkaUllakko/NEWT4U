@@ -26,5 +26,9 @@ namespace Animals
                 return typeof(Bear).Name + " hunts & wasn't successful.";
             }
         }
+        public override void Eat()
+        {
+            this.weight += 1;
+        }
     }
 }

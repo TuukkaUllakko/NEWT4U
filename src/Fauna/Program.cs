@@ -16,9 +16,9 @@ namespace ConsoleApplication
       Bear teddy = new Bear();
       Console.WriteLine(teddy.Hunt());
 
-      Console.WriteLine(birdie.Name);
+      Console.WriteLine(birdie.weight);
 
-      birdie.GiveName(Console.ReadLine());
+      birdie.Eat();
 
       Console.WriteLine(birdie.Name); */
 
