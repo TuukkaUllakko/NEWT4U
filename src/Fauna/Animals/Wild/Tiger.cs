@@ -18,7 +18,7 @@ namespace Animals
             double chance = random.NextDouble();
             if (chance <= 0.6)
             {
-                this.weight = this.weight + 1;
+                Eat();
                 return typeof(Bear).Name + " hunts & finds food. " + typeof(Bear).Name + " now weighs " + this.weight + " kilograms.";
             }
             else
