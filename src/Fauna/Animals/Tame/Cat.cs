@@ -23,5 +23,9 @@ namespace Animals
         {
             return this.Name + " came to the owner.";
         }
+        public void GiveName(string newName)
+        {
+            this.Name = newName;
+        }
     }
 }

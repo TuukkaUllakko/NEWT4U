@@ -22,5 +22,9 @@ namespace Animals
         {
             return "Oink!";
         }
+        public void GiveName(string newName)
+        {
+            this.Name = newName;
+        }
     }
 }

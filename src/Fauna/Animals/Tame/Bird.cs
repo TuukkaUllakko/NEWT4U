@@ -5,9 +5,9 @@ namespace Animals
     public class Bird : Animal, ITame
     {
         public string Name { get; set; }
-        public Bird(string Name)
+        public Bird()
         {
-            this.Name = Name;
+            this.Name = typeof(Bird).Name;
         }
         public string TalkToOwner()
         {
@@ -21,6 +21,10 @@ namespace Animals
         public string ComeHere()
         {
             return this.Name + " came to the owner.";
+        }
+        public void GiveName(string newName)
+        {
+            this.Name = newName;
         }
 
     }

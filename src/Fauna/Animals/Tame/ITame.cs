@@ -4,6 +4,6 @@ namespace Animals
     {
         string Name { get; set; }
         string ComeHere();
-
+        void GiveName(string newName);
     }
 }
