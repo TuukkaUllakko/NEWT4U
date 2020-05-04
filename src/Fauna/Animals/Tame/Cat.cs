@@ -5,9 +5,11 @@ namespace Animals
     public class Cat : Animal, ITame
     {
         public string Name { get; set; }
+        public int weight { get; set; }
         public Cat()
         {
             this.Name = Name;
+            this.weight = 3;
         }
         public string TalkToOwner()
         {
