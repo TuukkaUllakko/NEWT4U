@@ -236,4 +236,12 @@ public class AnimalsTests
 
         Assert.AreNotEqual(expected, actual, "GiveName() should change name.");
     }
+    //Below are the tests for the Eat() method
+    /*[Test]
+    {
+        public void EatIncreasesWeight()
+        {
+
+        }
+    }*/
 }
