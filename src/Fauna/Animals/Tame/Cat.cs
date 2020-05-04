@@ -5,7 +5,7 @@ namespace Animals
     public class Cat : Animal, ITame
     {
         public string Name { get; set; }
-        public Cat(string Name)
+        public Cat()
         {
             this.Name = Name;
         }

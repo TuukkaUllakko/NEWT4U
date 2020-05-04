@@ -4,7 +4,7 @@ namespace Animals
     {
         public string Name { get; set; }
 
-        public Pig(string Name)
+        public Pig()
         {
             this.Name = Name;
         }
