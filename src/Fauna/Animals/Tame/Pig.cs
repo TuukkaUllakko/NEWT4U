@@ -3,10 +3,11 @@ namespace Animals
     public class Pig : Animal, ITame
     {
         public string Name { get; set; }
-
+        public int weight { get; set; }
         public Pig()
         {
             this.Name = Name;
+            this.weight = 85;
         }
         public string TalkToOwner()
         {

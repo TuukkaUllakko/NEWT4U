@@ -2,6 +2,11 @@ namespace Animals
 {
     public class Wolf : Animal, IWild
     {
+        public int weight { get; set; }
+        public Wolf()
+        {
+            this.weight = 35;
+        }
         public override string MakeSound()
         {
             return "Howl!";
