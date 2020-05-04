@@ -7,7 +7,7 @@ namespace ConsoleApplication
   {
     public static void Main(string[] args)
     {
-      Bird birdie = new Bird();
+      /*Bird birdie = new Bird();
       Console.WriteLine(birdie.ComeHere());
      
       Wolf wolfie = new Wolf();
@@ -20,7 +20,10 @@ namespace ConsoleApplication
 
       birdie.GiveName(Console.ReadLine());
 
-      Console.WriteLine(birdie.Name);
+      Console.WriteLine(birdie.Name); */
+
+      Bear teddyBear = new Bear();
+      Console.WriteLine(teddyBear.Hunt());
     }
   }
 }
