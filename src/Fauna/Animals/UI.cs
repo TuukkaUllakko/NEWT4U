@@ -166,7 +166,7 @@ namespace Animals
                     Console.WriteLine();
                     Console.WriteLine("We're sorry to see you go! Please do stop by another time!");
                     System.Threading.Thread.Sleep(3000);
-                    System.Environment.Exit(0);
+                    break;
                 }
 
                 if (whichAnimal == "1")
@@ -176,15 +176,14 @@ namespace Animals
                     {
                         Console.WriteLine("What would you like to do?");
 
-                        Console.WriteLine("0 = Quit");
-                        Console.WriteLine("1 = See a different animal");
+                        Console.WriteLine("1 = Go back.");
                         Console.WriteLine("2 = Give the animal some food.");
                         Console.WriteLine("3 = Give a name to the animal.");
                         Console.WriteLine("4 = Call the animal to you.");
                         Console.WriteLine("5 = Talk to the animal.");
                         string toDo = Console.ReadLine();
 
-                        if (toDo != "0" && toDo != "1" && toDo != "2" && toDo != "3" && toDo != "4" && toDo != "5")
+                        if (toDo != "1" && toDo != "2" && toDo != "3" && toDo != "4" && toDo != "5")
                         {
                             Console.WriteLine("Please choose one of the options above!");
                             Console.WriteLine();
@@ -194,13 +193,7 @@ namespace Animals
                         Regex regex = new Regex("^(0|1|2|3|4|5|)$");
                         if (regex.IsMatch(toDo.ToString()))
                         {
-                            if (toDo == "0")
-                            {
-                                Console.WriteLine();
-                                Console.WriteLine("We're sorry to see you go! Please do stop by another time!");
-                                System.Threading.Thread.Sleep(3000);
-                                System.Environment.Exit(0);
-                            }
+
                             if (toDo == "1")
                             {
                                 break;
@@ -247,15 +240,14 @@ namespace Animals
                     {
                         Console.WriteLine("What would you like to do?");
 
-                        Console.WriteLine("0 = Quit");
-                        Console.WriteLine("1 = See a different animal");
+                        Console.WriteLine("1 = Go back.");
                         Console.WriteLine("2 = Give the animal some food.");
                         Console.WriteLine("3 = Give a name to the animal.");
                         Console.WriteLine("4 = Call the animal to you.");
                         Console.WriteLine("5 = Talk to the animal.");
                         string toDo = Console.ReadLine();
 
-                        if (toDo != "0" && toDo != "1" && toDo != "2" && toDo != "3" && toDo != "4" && toDo != "5")
+                        if (toDo != "1" && toDo != "2" && toDo != "3" && toDo != "4" && toDo != "5")
                         {
                             Console.WriteLine("Please choose one of the options above!");
                             Console.WriteLine();
@@ -265,13 +257,7 @@ namespace Animals
                         Regex regex = new Regex("^(0|1|2|3|4|5|)$");
                         if (regex.IsMatch(toDo.ToString()))
                         {
-                            if (toDo == "0")
-                            {
-                                Console.WriteLine();
-                                Console.WriteLine("We're sorry to see you go! Please do stop by another time!");
-                                System.Threading.Thread.Sleep(3000);
-                                System.Environment.Exit(0);
-                            }
+
                             if (toDo == "1")
                             {
                                 break;
@@ -318,15 +304,14 @@ namespace Animals
                     {
                         Console.WriteLine("What would you like to do?");
 
-                        Console.WriteLine("0 = Quit");
-                        Console.WriteLine("1 = See a different animal");
+                        Console.WriteLine("1 = Go back.");
                         Console.WriteLine("2 = Give the animal some food.");
                         Console.WriteLine("3 = Give a name to the animal.");
                         Console.WriteLine("4 = Call the animal to you.");
                         Console.WriteLine("5 = Talk to the animal.");
                         string toDo = Console.ReadLine();
 
-                        if (toDo != "0" && toDo != "1" && toDo != "2" && toDo != "3" && toDo != "4" && toDo != "5")
+                        if (toDo != "1" && toDo != "2" && toDo != "3" && toDo != "4" && toDo != "5")
                         {
                             Console.WriteLine("Please choose one of the options above!");
                             Console.WriteLine();
@@ -336,13 +321,7 @@ namespace Animals
                         Regex regex = new Regex("^(0|1|2|3|4|5|)$");
                         if (regex.IsMatch(toDo.ToString()))
                         {
-                            if (toDo == "0")
-                            {
-                                Console.WriteLine();
-                                Console.WriteLine("We're sorry to see you go! Please do stop by another time!");
-                                System.Threading.Thread.Sleep(3000);
-                                System.Environment.Exit(0);
-                            }
+
                             if (toDo == "1")
                             {
                                 break;
@@ -389,15 +368,14 @@ namespace Animals
                     {
                         Console.WriteLine("What would you like to do?");
 
-                        Console.WriteLine("0 = Quit");
-                        Console.WriteLine("1 = See a different animal");
+                        Console.WriteLine("1 = Go back.");
                         Console.WriteLine("2 = Give the animal some food.");
                         Console.WriteLine("3 = Give a name to the animal.");
                         Console.WriteLine("4 = Call the animal to you.");
                         Console.WriteLine("5 = Talk to the animal.");
                         string toDo = Console.ReadLine();
 
-                        if (toDo != "0" && toDo != "1" && toDo != "2" && toDo != "3" && toDo != "4" && toDo != "5")
+                        if (toDo != "1" && toDo != "2" && toDo != "3" && toDo != "4" && toDo != "5")
                         {
                             Console.WriteLine("Please choose one of the options above!");
                             Console.WriteLine();
@@ -407,13 +385,7 @@ namespace Animals
                         Regex regex = new Regex("^(0|1|2|3|4|5|)$");
                         if (regex.IsMatch(toDo.ToString()))
                         {
-                            if (toDo == "0")
-                            {
-                                Console.WriteLine();
-                                Console.WriteLine("We're sorry to see you go! Please do stop by another time!");
-                                System.Threading.Thread.Sleep(3000);
-                                System.Environment.Exit(0);
-                            }
+
                             if (toDo == "1")
                             {
                                 break;
@@ -460,15 +432,14 @@ namespace Animals
                     {
                         Console.WriteLine("What would you like to do?");
 
-                        Console.WriteLine("0 = Quit");
-                        Console.WriteLine("1 = See a different animal");
+                        Console.WriteLine("1 = Go back.");
                         Console.WriteLine("2 = Give the animal some food.");
                         Console.WriteLine("3 = Give a name to the animal.");
                         Console.WriteLine("4 = Call the animal to you.");
                         Console.WriteLine("5 = Talk to the animal.");
                         string toDo = Console.ReadLine();
 
-                        if (toDo != "0" && toDo != "1" && toDo != "2" && toDo != "3" && toDo != "4" && toDo != "5")
+                        if (toDo != "1" && toDo != "2" && toDo != "3" && toDo != "4" && toDo != "5")
                         {
                             Console.WriteLine("Please choose one of the options above!");
                             Console.WriteLine();
@@ -478,13 +449,7 @@ namespace Animals
                         Regex regex = new Regex("^(0|1|2|3|4|5|)$");
                         if (regex.IsMatch(toDo.ToString()))
                         {
-                            if (toDo == "0")
-                            {
-                                Console.WriteLine();
-                                Console.WriteLine("We're sorry to see you go! Please do stop by another time!");
-                                System.Threading.Thread.Sleep(3000);
-                                System.Environment.Exit(0);
-                            }
+
                             if (toDo == "1")
                             {
                                 break;
@@ -531,13 +496,12 @@ namespace Animals
                     {
                         Console.WriteLine("What would you like to do?");
 
-                        Console.WriteLine("0 = Quit");
-                        Console.WriteLine("1 = See a different animal");
+                        Console.WriteLine("1 = Go back.");
                         Console.WriteLine("2 = Watch the animal hunt");
                         Console.WriteLine("3 = Hear the animal");
                         string toDo = Console.ReadLine();
 
-                        if (toDo != "0" && toDo != "1" && toDo != "2" && toDo != "3" && toDo != "4" && toDo != "5")
+                        if (toDo != "1" && toDo != "2" && toDo != "3" && toDo != "4" && toDo != "5")
                         {
                             Console.WriteLine("Please choose one of the options above!");
                             Console.WriteLine();
@@ -547,13 +511,7 @@ namespace Animals
                         Regex regex = new Regex("^(0|1|2|3|4|5|)$");
                         if (regex.IsMatch(toDo.ToString()))
                         {
-                            if (toDo == "0")
-                            {
-                                Console.WriteLine();
-                                Console.WriteLine("We're sorry to see you go! Please do stop by another time!");
-                                System.Threading.Thread.Sleep(3000);
-                                System.Environment.Exit(0);
-                            }
+
                             if (toDo == "1")
                             {
                                 break;
@@ -582,13 +540,12 @@ namespace Animals
                     {
                         Console.WriteLine("What would you like to do?");
 
-                        Console.WriteLine("0 = Quit");
-                        Console.WriteLine("1 = See a different animal");
+                        Console.WriteLine("1 = Go back.");
                         Console.WriteLine("2 = Watch the animal hunt");
                         Console.WriteLine("3 = Hear the animal");
                         string toDo = Console.ReadLine();
 
-                        if (toDo != "0" && toDo != "1" && toDo != "2" && toDo != "3" && toDo != "4" && toDo != "5")
+                        if (toDo != "1" && toDo != "2" && toDo != "3" && toDo != "4" && toDo != "5")
                         {
                             Console.WriteLine("Please choose one of the options above!");
                             Console.WriteLine();
@@ -598,13 +555,7 @@ namespace Animals
                         Regex regex = new Regex("^(0|1|2|3|4|5|)$");
                         if (regex.IsMatch(toDo.ToString()))
                         {
-                            if (toDo == "0")
-                            {
-                                Console.WriteLine();
-                                Console.WriteLine("We're sorry to see you go! Please do stop by another time!");
-                                System.Threading.Thread.Sleep(3000);
-                                System.Environment.Exit(0);
-                            }
+
                             if (toDo == "1")
                             {
                                 break;
@@ -633,13 +584,12 @@ namespace Animals
                     {
                         Console.WriteLine("What would you like to do?");
 
-                        Console.WriteLine("0 = Quit");
-                        Console.WriteLine("1 = See a different animal");
+                        Console.WriteLine("1 = Go back.");
                         Console.WriteLine("2 = Watch the animal hunt");
                         Console.WriteLine("3 = Hear the animal");
                         string toDo = Console.ReadLine();
 
-                        if (toDo != "0" && toDo != "1" && toDo != "2" && toDo != "3" && toDo != "4" && toDo != "5")
+                        if (toDo != "1" && toDo != "2" && toDo != "3" && toDo != "4" && toDo != "5")
                         {
                             Console.WriteLine("Please choose one of the options above!");
                             Console.WriteLine();
@@ -649,13 +599,7 @@ namespace Animals
                         Regex regex = new Regex("^(0|1|2|3|4|5|)$");
                         if (regex.IsMatch(toDo.ToString()))
                         {
-                            if (toDo == "0")
-                            {
-                                Console.WriteLine();
-                                Console.WriteLine("We're sorry to see you go! Please do stop by another time!");
-                                System.Threading.Thread.Sleep(3000);
-                                System.Environment.Exit(0);
-                            }
+
                             if (toDo == "1")
                             {
                                 break;
