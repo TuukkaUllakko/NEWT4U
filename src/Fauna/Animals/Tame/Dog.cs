@@ -30,6 +30,7 @@ namespace Animals
         public override void Eat()
         {
             this.weight += 1;
+            Console.WriteLine(this.Name + " now weighs " + this.weight + " kilograms.");
         }
     }
 }

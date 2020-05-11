@@ -1,3 +1,5 @@
+using System;
+
 namespace Animals
 {
     public class Pig : Animal, ITame
@@ -30,6 +32,7 @@ namespace Animals
         public override void Eat()
         {
             this.weight += 1;
+            Console.WriteLine(this.Name + " now weighs " + this.weight + " kilograms.");
         }
     }
 }

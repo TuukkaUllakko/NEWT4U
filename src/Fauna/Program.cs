@@ -22,8 +22,11 @@ namespace ConsoleApplication
 
       Console.WriteLine(birdie.Name); */
 
-      Bear teddyBear = new Bear();
-      Console.WriteLine(teddyBear.Hunt());
+      /*Bear teddyBear = new Bear();
+      Console.WriteLine(teddyBear.Hunt());*/
+
+      UI userInterface = new UI();
+      userInterface.Start();
     }
   }
 }
