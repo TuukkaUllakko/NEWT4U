@@ -153,12 +153,14 @@ namespace Animals
                 Console.WriteLine("Which animal would you like to meet?");
                 Console.WriteLine("0 = Quit\n1 = Bird\n2 = Cat\n3 = Dog\n4 = Pig\n5 = Rat\n6 = Bear\n7 = Tiger\n8 = Wolf");
                 string whichAnimal = Console.ReadLine();
-                if (whichAnimal != "0" && whichAnimal != "1" && whichAnimal != "2" && whichAnimal != "3" && whichAnimal != "4" && whichAnimal != "5" && whichAnimal != "6" && whichAnimal != "7" && whichAnimal != "8")
+                Regex regexAnimal = new Regex("^(0|1|2|3|4|5|6|7|8|)$");
+                if (!regexAnimal.IsMatch(whichAnimal))
                 {
                     Console.WriteLine();
                     Console.WriteLine("Please choose one of the options above!");
                     Console.WriteLine();
                     System.Threading.Thread.Sleep(3000);
+                    continue;
                 }
 
                 if (whichAnimal == "0")
