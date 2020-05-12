@@ -7,7 +7,7 @@ The new testing for the final task of Part 5 of Software Development
 
 Here is our **sequence diagram**:  
 (It is behind a link, since the picture is so huge)
-[Sequence Link](https://raw.githubusercontent.com/TuukkaUllakko/NEWT4U/master/assets/Sequence%20Diagram%20FaunaProject.png)  
+[Sequence Diagram Link](https://raw.githubusercontent.com/TuukkaUllakko/NEWT4U/master/assets/Sequence%20Diagram%20FaunaProject.png)  
 
 Our sequence diagram became really long because of the way we coded our program. However, the program works like it should, and the sequence diagram does show exactly what the program does. In the diagram, *main* first calls the *user interface*, and starts it. The rest of the program is run in the user interface. Since the program is based on the user's input, there are loops that "force" the user to always pick a valid option.   
 
