@@ -23,24 +23,24 @@ The user can break the infinite animal loop with a certain input, and this loop 
 │     └── sequence_diagram.png
 ├── src
 │    └── FaunaProject
-│	  ├── TextInterface.cs
-│     │
-│	  └── Animals
-│         │       ├── Animal.cs
-│         │       ├── Tame
-│         │       │    ├── Cat.cs
-│         │       │    ├── Bird.cs
-│         │       │    ├── Dog.cs
-│         │       │    ├── Pig.cs
-│         │       │    └── Rat.cs
-│         │       │
-│         │       └── Wild
-│         │		        ├── Wolf.cs
-│         │		        ├── Bear.cs
-│         │		        └── Tiger.cs
-│         │
-│         ├── FaunaProject.csproj
-│         └── Program.cs
+│	        ├── TextInterface.cs
+│           │
+│	        └── Animals
+│                 │       ├── Animal.cs
+│                 │       ├── Tame
+│                 │       │    ├── Cat.cs
+│                 │       │    ├── Bird.cs
+│                 │       │    ├── Dog.cs
+│                 │       │    ├── Pig.cs
+│                 │       │    └── Rat.cs
+│                 │       │
+│                 │       └── Wild
+│                 │		        ├── Wolf.cs
+│                 │		        ├── Bear.cs
+│                 │		        └── Tiger.cs
+│                 │
+│                 ├── FaunaProject.csproj
+│                 └── Program.cs
 └── test
     └── FaunaProjecttests
           ├── FaunaProjectTest.cs
