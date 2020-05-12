@@ -256,46 +256,41 @@ namespace Animals
                             System.Threading.Thread.Sleep(3000);
                         }
 
-                        Regex regex = new Regex("^(0|1|2|3|4|5|)$");
-                        if (regex.IsMatch(toDo.ToString()))
+                        if (toDo == "1")
                         {
-
-                            if (toDo == "1")
-                            {
-                                break;
-                            }
-                            if (toDo == "2")
-                            {
-                                Console.WriteLine();
-                                cat.Eat();
-                                Console.WriteLine();
-                                System.Threading.Thread.Sleep(3000);
-                            }
-                            if (toDo == "3")
-                            {
-                                Console.WriteLine();
-                                Console.WriteLine("What would you like to call the animal?");
-                                string name = Console.ReadLine();
-                                cat.GiveName(name);
-                                Console.WriteLine();
-                            }
-                            if (toDo == "4")
-                            {
-                                Console.WriteLine();
-                                Console.WriteLine(cat.ComeHere());
-                                Console.WriteLine();
-                                System.Threading.Thread.Sleep(3000);
-                            }
-                            if (toDo == "5")
-                            {
-                                Console.WriteLine();
-                                Console.WriteLine("What do you want to say to the animal?");
-                                string something = Console.ReadLine();
-                                Console.WriteLine();
-                                Console.WriteLine(cat.MakeSound());
-                                Console.WriteLine();
-                                System.Threading.Thread.Sleep(3000);
-                            }
+                            break;
+                        }
+                        if (toDo == "2")
+                        {
+                            Console.WriteLine();
+                            cat.Eat();
+                            Console.WriteLine();
+                            System.Threading.Thread.Sleep(3000);
+                        }
+                        if (toDo == "3")
+                        {
+                            Console.WriteLine();
+                            Console.WriteLine("What would you like to call the animal?");
+                            string name = Console.ReadLine();
+                            cat.GiveName(name);
+                            Console.WriteLine();
+                        }
+                        if (toDo == "4")
+                        {
+                            Console.WriteLine();
+                            Console.WriteLine(cat.ComeHere());
+                            Console.WriteLine();
+                            System.Threading.Thread.Sleep(3000);
+                        }
+                        if (toDo == "5")
+                        {
+                            Console.WriteLine();
+                            Console.WriteLine("What do you want to say to the animal?");
+                            string something = Console.ReadLine();
+                            Console.WriteLine();
+                            Console.WriteLine(cat.MakeSound());
+                            Console.WriteLine();
+                            System.Threading.Thread.Sleep(3000);
                         }
                     }
                 }
@@ -493,7 +488,7 @@ namespace Animals
                 }
                 if (whichAnimal == "6")
                 {
-                    Bear bear = new Bear(); 
+                    Bear bear = new Bear();
                     while (true)
                     {
                         Console.WriteLine("What would you like to do?");

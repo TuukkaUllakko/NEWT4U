@@ -8,7 +8,7 @@ namespace Animals
         public int weight { get; set; }
         public Cat()
         {
-            this.Name = Name;
+            this.Name = typeof(Cat).Name;
             this.weight = 3;
         }
         public string TalkToOwner()
