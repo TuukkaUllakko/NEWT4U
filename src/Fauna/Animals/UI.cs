@@ -478,7 +478,7 @@ namespace Animals
                         Console.WriteLine("3 = Hear the animal");
                         string toDo = Console.ReadLine();
 
-                        if (toDo != "1" && toDo != "2" && toDo != "3" && toDo != "4" && toDo != "5")
+                        if (toDo != "1" && toDo != "2" && toDo != "3")
                         {
                             Console.WriteLine("Please choose one of the options above!");
                             Console.WriteLine();
@@ -517,7 +517,7 @@ namespace Animals
                         Console.WriteLine("3 = Hear the animal");
                         string toDo = Console.ReadLine();
 
-                        if (toDo != "1" && toDo != "2" && toDo != "3" && toDo != "4" && toDo != "5")
+                        if (toDo != "1" && toDo != "2" && toDo != "3")
                         {
                             Console.WriteLine("Please choose one of the options above!");
                             Console.WriteLine();
@@ -556,7 +556,7 @@ namespace Animals
                         Console.WriteLine("3 = Hear the animal");
                         string toDo = Console.ReadLine();
 
-                        if (toDo != "1" && toDo != "2" && toDo != "3" && toDo != "4" && toDo != "5")
+                        if (toDo != "1" && toDo != "2" && toDo != "3")
                         {
                             Console.WriteLine("Please choose one of the options above!");
                             Console.WriteLine();
