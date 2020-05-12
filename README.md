@@ -1,9 +1,8 @@
-## FAUNA
+### FAUNA
 
-[Trello link](https://trello.com/b/AGGB9EzQ/team4you)
+##### The final group task in part 7 of the Software Development course, made by Team4u.
 
-
-The new testing for the final task of Part 5 of Software Development   
+[Trello link](https://trello.com/b/AGGB9EzQ/team4you)   
 
 Here is our **sequence diagram**:  
 (It is behind a link, since the picture is so huge)
