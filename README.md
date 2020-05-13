@@ -22,27 +22,30 @@ The user can break the infinite animal loop with a certain input, and this loop 
 │     ├── class_diagram_with_connections.png
 │     └── sequence_diagram.png
 ├── src
-│    └── FaunaProject
+│    └── Fauna
 │	        ├── TextInterface.cs
 │           │
-│	        └── Animals
-│                 │       ├── Animal.cs
-│                 │       ├── Tame
-│                 │       │    ├── Cat.cs
-│                 │       │    ├── Bird.cs
-│                 │       │    ├── Dog.cs
-│                 │       │    ├── Pig.cs
-│                 │       │    └── Rat.cs
-│                 │       │
-│                 │       └── Wild
-│                 │		        ├── Wolf.cs
-│                 │		        ├── Bear.cs
-│                 │		        └── Tiger.cs
-│                 │
-│                 ├── FaunaProject.csproj
-│                 └── Program.cs
+│	        ├── Animals
+│           │       ├── Animal.cs
+│           │       ├── UI.cs
+│           │       ├── Tame
+│           │       │    ├── ITame.cs
+│           │       │    ├── Cat.cs
+│           │       │    ├── Bird.cs
+│           │       │    ├── Dog.cs
+│           │       │    ├── Pig.cs
+│           │       │    └── Rat.cs
+│           │       │
+│           │       └── Wild
+│           │            ├── IWild.cs
+│           │		     ├── Wolf.cs
+│           │		     ├── Bear.cs
+│           │		     └── Tiger.cs
+│           │
+│           ├── FaunaProject.csproj
+│           └── Program.cs
 └── test
-    └── FaunaProjecttests
-          ├── FaunaProjectTest.cs
-          └── FaunaProjectTest.csproj
+    └── FaunaTests
+          ├── FaunaTest.cs
+          └── FaunaTest.csproj
 ```
