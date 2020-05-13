@@ -151,7 +151,8 @@ namespace Animals
             while (true)
             {
                 Console.WriteLine("Which animal would you like to meet?");
-                Console.WriteLine("0 = Quit\n1 = Bird\n2 = Cat\n3 = Dog\n4 = Pig\n5 = Rat\n6 = Bear\n7 = Tiger\n8 = Wolf");
+                Console.WriteLine(); // added an empty line
+                Console.WriteLine("0 = quit\n1 = Bird\n2 = Cat\n3 = Dog\n4 = Pig\n5 = Rat\n6 = Bear\n7 = Tiger\n8 = Wolf"); // changed Quit to quit 
                 string whichAnimal = Console.ReadLine();
                 Regex regexAnimal = new Regex("^(0|1|2|3|4|5|6|7|8|)$");
                 if (!regexAnimal.IsMatch(whichAnimal))
@@ -177,6 +178,7 @@ namespace Animals
                     while (true)
                     {
                         Console.WriteLine("What would you like to do?");
+                        Console.WriteLine(); // added an empty line to all
 
                         Console.WriteLine("1 = Go back.");
                         Console.WriteLine("2 = Give the animal some food.");
@@ -236,7 +238,7 @@ namespace Animals
                     while (true)
                     {
                         Console.WriteLine("What would you like to do?");
-
+                        Console.WriteLine();
                         Console.WriteLine("1 = Go back.");
                         Console.WriteLine("2 = Give the animal some food.");
                         Console.WriteLine("3 = Give a name to the animal.");
@@ -295,7 +297,7 @@ namespace Animals
                     while (true)
                     {
                         Console.WriteLine("What would you like to do?");
-
+                        Console.WriteLine();
                         Console.WriteLine("1 = Go back.");
                         Console.WriteLine("2 = Give the animal some food.");
                         Console.WriteLine("3 = Give a name to the animal.");
@@ -350,11 +352,11 @@ namespace Animals
                 }
                 if (whichAnimal == "4")
                 {
-                    Dog dog = new Dog(); //CHANGE EVERYTHING FROM DOG TO PIG HERE (NOT CHANGE ALL OCCURRENCES)
+                    Pig pig = new Pig(); //CHANGE EVERYTHING FROM DOG TO PIG HERE (NOT CHANGE ALL OCCURRENCES)
                     while (true)
                     {
                         Console.WriteLine("What would you like to do?");
-
+                        Console.WriteLine();
                         Console.WriteLine("1 = Go back.");
                         Console.WriteLine("2 = Give the animal some food.");
                         Console.WriteLine("3 = Give a name to the animal.");
@@ -376,7 +378,7 @@ namespace Animals
                         if (toDo == "2")
                         {
                             Console.WriteLine();
-                            dog.Eat();
+                            pig.Eat();
                             Console.WriteLine();
                             System.Threading.Thread.Sleep(3000);
                         }
@@ -385,13 +387,13 @@ namespace Animals
                             Console.WriteLine();
                             Console.WriteLine("What would you like to call the animal?");
                             string name = Console.ReadLine();
-                            dog.GiveName(name);
+                            pig.GiveName(name);
                             Console.WriteLine();
                         }
                         if (toDo == "4")
                         {
                             Console.WriteLine();
-                            Console.WriteLine(dog.ComeHere());
+                            Console.WriteLine(pig.ComeHere());
                             Console.WriteLine();
                             System.Threading.Thread.Sleep(3000);
                         }
@@ -401,7 +403,7 @@ namespace Animals
                             Console.WriteLine("What do you want to say to the animal?");
                             string something = Console.ReadLine();
                             Console.WriteLine();
-                            Console.WriteLine(dog.MakeSound());
+                            Console.WriteLine(pig.MakeSound());
                             Console.WriteLine();
                             System.Threading.Thread.Sleep(3000);
                         }
@@ -409,11 +411,11 @@ namespace Animals
                 }
                 if (whichAnimal == "5")
                 {
-                    Dog dog = new Dog(); //CHANGE EVERYTHING FROM DOG TO RAT HERE (NOT CHANGE ALL OCCURRENCES)
+                    Rat rat = new Rat(); //CHANGE EVERYTHING FROM DOG TO RAT HERE (NOT CHANGE ALL OCCURRENCES)
                     while (true)
                     {
                         Console.WriteLine("What would you like to do?");
-
+                        Console.WriteLine();
                         Console.WriteLine("1 = Go back.");
                         Console.WriteLine("2 = Give the animal some food.");
                         Console.WriteLine("3 = Give a name to the animal.");
@@ -435,7 +437,7 @@ namespace Animals
                         if (toDo == "2")
                         {
                             Console.WriteLine();
-                            dog.Eat();
+                            rat.Eat();
                             Console.WriteLine();
                             System.Threading.Thread.Sleep(3000);
                         }
@@ -444,13 +446,13 @@ namespace Animals
                             Console.WriteLine();
                             Console.WriteLine("What would you like to call the animal?");
                             string name = Console.ReadLine();
-                            dog.GiveName(name);
+                            rat.GiveName(name);
                             Console.WriteLine();
                         }
                         if (toDo == "4")
                         {
                             Console.WriteLine();
-                            Console.WriteLine(dog.ComeHere());
+                            Console.WriteLine(rat.ComeHere());
                             Console.WriteLine();
                             System.Threading.Thread.Sleep(3000);
                         }
@@ -460,7 +462,7 @@ namespace Animals
                             Console.WriteLine("What do you want to say to the animal?");
                             string something = Console.ReadLine();
                             Console.WriteLine();
-                            Console.WriteLine(dog.MakeSound());
+                            Console.WriteLine(rat.MakeSound());
                             Console.WriteLine();
                             System.Threading.Thread.Sleep(3000);
                         }
@@ -472,10 +474,10 @@ namespace Animals
                     while (true)
                     {
                         Console.WriteLine("What would you like to do?");
-
+                        Console.WriteLine();
                         Console.WriteLine("1 = Go back.");
                         Console.WriteLine("2 = Watch the animal hunt");
-                        Console.WriteLine("3 = Hear the animal");
+                        Console.WriteLine("3 = Hear the sound of the animal");
                         string toDo = Console.ReadLine();
 
                         if (toDo != "1" && toDo != "2" && toDo != "3")
@@ -507,14 +509,14 @@ namespace Animals
                 }
                 if (whichAnimal == "7")
                 {
-                    Bear bear = new Bear(); //CHANGE EVERYTHING FROM BEAR TO TIGER HERE (NOT CHANGE ALL OCCURRENCES)
+                    Tiger tiger = new Tiger(); //CHANGE EVERYTHING FROM BEAR TO TIGER HERE (NOT CHANGE ALL OCCURRENCES)
                     while (true)
                     {
                         Console.WriteLine("What would you like to do?");
-
+                        Console.WriteLine();
                         Console.WriteLine("1 = Go back.");
                         Console.WriteLine("2 = Watch the animal hunt");
-                        Console.WriteLine("3 = Hear the animal");
+                        Console.WriteLine("3 = Hear the sound of the animal");
                         string toDo = Console.ReadLine();
 
                         if (toDo != "1" && toDo != "2" && toDo != "3")
@@ -531,14 +533,14 @@ namespace Animals
                         if (toDo == "2")
                         {
                             Console.WriteLine();
-                            Console.WriteLine(bear.Hunt());
+                            Console.WriteLine(tiger.Hunt());
                             Console.WriteLine();
                             System.Threading.Thread.Sleep(3000);
                         }
                         if (toDo == "3")
                         {
                             Console.WriteLine();
-                            Console.WriteLine(bear.MakeSound());
+                            Console.WriteLine(tiger.MakeSound());
                             Console.WriteLine();
                             System.Threading.Thread.Sleep(3000);
                         }
@@ -546,14 +548,14 @@ namespace Animals
                 }
                 if (whichAnimal == "8")
                 {
-                    Bear bear = new Bear(); //CHANGE EVERYTHING FROM BEAR TO WOLF HERE (NOT CHANGE ALL OCCURRENCES)
+                    Wolf wolf = new Wolf(); //CHANGE EVERYTHING FROM BEAR TO WOLF HERE (NOT CHANGE ALL OCCURRENCES)
                     while (true)
                     {
                         Console.WriteLine("What would you like to do?");
-
+                        Console.WriteLine();
                         Console.WriteLine("1 = Go back.");
-                        Console.WriteLine("2 = Watch the animal hunt");
-                        Console.WriteLine("3 = Hear the animal");
+                        Console.WriteLine("2 = Watch the animal hunt.");
+                        Console.WriteLine("3 = Hear the sound of the animal.");
                         string toDo = Console.ReadLine();
 
                         if (toDo != "1" && toDo != "2" && toDo != "3")
@@ -570,14 +572,14 @@ namespace Animals
                         if (toDo == "2")
                         {
                             Console.WriteLine();
-                            Console.WriteLine(bear.Hunt());
+                            Console.WriteLine(wolf.Hunt());
                             Console.WriteLine();
                             System.Threading.Thread.Sleep(3000);
                         }
                         if (toDo == "3")
                         {
                             Console.WriteLine();
-                            Console.WriteLine(bear.MakeSound());
+                            Console.WriteLine(wolf.MakeSound());
                             Console.WriteLine();
                             System.Threading.Thread.Sleep(3000);
                         }

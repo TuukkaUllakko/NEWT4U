@@ -156,7 +156,7 @@ public class AnimalsTests
     {
         Wolf testObj = new Wolf();
         string actual = testObj.Hunt();
-        string expected = typeof(Wolf).Name + " hunts &";
+        string expected = typeof(Wolf).Name + " hunts "; // took away &
 
         StringAssert.StartsWith(expected, actual, "Hunt() doesn't work");
     }
@@ -165,7 +165,7 @@ public class AnimalsTests
     {
         Bear testObj = new Bear();
         string actual = testObj.Hunt();
-        string expected = typeof(Bear).Name + " hunts &";
+        string expected = typeof(Bear).Name + " hunts ";
 
         StringAssert.StartsWith(expected, actual, "Hunt() doesn't work");
     }
@@ -174,7 +174,7 @@ public class AnimalsTests
     {
         Tiger testObj = new Tiger();
         string actual = testObj.Hunt();
-        string expected = typeof(Tiger).Name + " hunts &";
+        string expected = typeof(Tiger).Name + " hunts ";
 
         StringAssert.StartsWith(expected, actual, "Hunt() doesn't work");
     }

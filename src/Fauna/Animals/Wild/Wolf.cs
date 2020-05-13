@@ -19,11 +19,11 @@ namespace Animals
             if (chance <= 0.6)
             {
                 Eat();
-                return typeof(Wolf).Name + " hunts & finds food. " + typeof(Wolf).Name + " now weighs " + this.weight + " kilograms.";
+                return typeof(Wolf).Name + " hunts and finds food. It now weighs " + this.weight + " kilograms.";
             }
             else
             {
-                return typeof(Wolf).Name + " hunts & wasn't successful.";
+                return typeof(Wolf).Name + " isn't successful in the hunt and has to go hungry.";
             }
         }
         public override void Eat()

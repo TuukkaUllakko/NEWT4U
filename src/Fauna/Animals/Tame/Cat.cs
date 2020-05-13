@@ -23,7 +23,7 @@ namespace Animals
 
         public string ComeHere()
         {
-            return this.Name + " came to the owner.";
+            return this.Name + " lazily struts to you.";
         }
         public void GiveName(string newName)
         {
@@ -32,7 +32,7 @@ namespace Animals
         public override void Eat()
         {
             this.weight += 1;
-            Console.WriteLine(this.Name + " now weighs " + this.weight + " kilograms.");
+            Console.WriteLine(this.Name + " eats and now weighs " + this.weight + " kilograms.");
         }
     }
 }
