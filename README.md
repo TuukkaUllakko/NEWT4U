@@ -23,8 +23,6 @@ The user can break the infinite animal loop with a certain input, and this loop 
 │     └── sequence_diagram.png
 ├── src
 │    └── Fauna
-│	        ├── TextInterface.cs
-│           │
 │	        ├── Animals
 │           │       ├── Animal.cs
 │           │       ├── UI.cs
