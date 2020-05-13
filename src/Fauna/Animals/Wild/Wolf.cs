@@ -23,7 +23,7 @@ namespace Animals
             }
             else
             {
-                return typeof(Wolf).Name + " isn't successful in the hunt and has to go hungry.";
+                return typeof(Wolf).Name + " hunts but isn't successful and has to go hungry.";
             }
         }
         public override void Eat()
