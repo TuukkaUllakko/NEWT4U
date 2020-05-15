@@ -21,7 +21,7 @@ The user can break the infinite animal loop with a certain input, and this loop 
 
 **Class diagram** can be found in the assets. The Fauna-project has an abstract class called _Animals_ with the methods MakeSound() and Eat() and weight property. There are two interfaces, one for the _ITame_ and the other for _IWild_ animals. The classes inheriting ITame are _Bird, Cat, Dog, Pig and Rat_. ITame contains public methods TalkToOwner():string, ComeHere():string and GiveName():string and also a name property. The interface IWild has the method Hunt():string and is inherited by _Tiger, Wolf and Bear_ -classes. There is also a _user interface UI_ with the method Start() that is associated with _both the IWild and ITame interfaces_ and also the _abstract Animal class_. 
 
-https://yuml.me/5e68852b.jpg
+![Class Diagram](https://yuml.me/5e68852b.jpg)
 
 
  Here is the **folder structure**
