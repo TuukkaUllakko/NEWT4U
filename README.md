@@ -1,6 +1,11 @@
 ### FAUNA
 
-##### The final group task in part 7 of the Software Development course, made by Team4u.
+#### The final group task in part 7 of the Software Development course, made by Team4u.
+Our goal was to make a *menagerie program* for our *customer*, where the user can visit, watch and interract with different kind of animals.   
+
+The project was completed by delegating different parts for our team members with the help of Trello (Kanban) to keep track of what has to still be done. For communication, we used Slack, WhatsApp and Discord voice & screen sharing. All implementation was done in Visual Studio Code. The class diagram was created in yuml.me. The sequence diagram was created in draw.io.    
+
+For more specific details about the program's functionality, please check out the class and sequence diagrams below.   
 
 [Trello link](https://trello.com/b/AGGB9EzQ/team4you)
 
@@ -18,7 +23,7 @@ The user can break the infinite animal loop with a certain input, and this loop 
 
 
 
- Here is **folderstructure**
+ Here is the **folder structure**
 ```
 ├── README.md
 ├── assets
